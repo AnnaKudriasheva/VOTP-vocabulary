@@ -2,12 +2,15 @@
   "name": "VOTP",
   "version": "1.0.0",
   "description": "",
+  "homepage": "https://annakudriasheva.github.io/VOTP-vocabulary/",
   "main": "index.js",
   "scripts": {
     "start": "node src/server/index.js",
     "build": "webpack --mode production",
     "client": "webpack-dev-server --mode development --devtool inline-source-map --hot",
     "server": "nodemon src/server/index.js",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "dev": "concurrently \"npm run server\" \"npm run client\""
   },
   "keywords": [],
@@ -41,6 +44,7 @@
   "dependencies": {
     "concurrently": "^4.0.1",
     "express": "^4.16.3",
+    "gh-pages": "^2.0.0",
     "path": "^0.12.7",
     "react": "^16.5.0",
     "react-dom": "^16.5.0"

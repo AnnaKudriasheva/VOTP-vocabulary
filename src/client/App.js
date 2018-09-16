@@ -4,7 +4,7 @@ import Quizzes from './Quizzes';
 import Header from './Header';
 import Footer from './Footer';
 import Questions from './Questions';
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { HashRouter as Router, Route } from "react-router-dom";
 
 export default class App extends Component {
     render() {

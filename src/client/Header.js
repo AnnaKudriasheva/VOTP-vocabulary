@@ -3,7 +3,7 @@ import {Grid, Jumbotron} from 'react-bootstrap';
 
 import '../style/header.scss';
 
-import bg from '../img/bg3.jpg';
+import bg from '../img/bg.jpg';
 
 const Header = () => (
     <Grid style={{backgroundImage: "url(" + bg + ")"}} className="mb-15" fluid>
