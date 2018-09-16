@@ -1,0 +1,69 @@
+$bg-primary: #2d2d2d;
+$text-white: #ffff;
+$text-gray: #585858;
+
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  position: relative;
+  padding-bottom: 70px;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+}
+
+.bg-primary {
+  background-color: $bg-primary;
+}
+
+.text-white {
+  color: $text-white;
+}
+
+.text-grey {
+  color: $text-gray;
+}
+
+.mb-0 {
+  margin-bottom: 0;
+}
+
+.mb-15 {
+    margin-bottom: 15px;
+}
+
+.mb-25 {
+  margin-bottom: 25px;
+}
+
+.pa-15 {
+  padding: 15px;
+}
+
+.test-info {
+  max-width: 800px;
+}
+
+img {
+  max-width: 100%;
+}
+
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.flex {
+  display: flex;
+}
+
+.content-space-btwn {
+  justify-content: space-between;
+}

@@ -1,0 +1,44 @@
+{
+  "names": [
+    {
+      "id": "1",
+      "topic": "Research yourself",
+      "subTopics": ["Subtopic-1", "Subtopic-2", "Subtopic-3"]
+    },
+    {
+      "id": "2",
+      "topic": "Research job market",
+      "subTopics": ["Subtopic-1", "Subtopic-2", "Subtopic-3"]
+    },
+    {
+      "id": "3",
+      "topic": "Resumes",
+      "subTopics": ["Subtopic-1", "Subtopic-2", "Subtopic-3"]
+    },
+    {
+      "id": "4",
+      "topic": "Cover letters",
+      "subTopics": ["Subtopic-1", "Subtopic-2", "Subtopic-3"]
+    },
+    {
+      "id": "5",
+      "topic": "Networking + LinkedIn",
+      "subTopics": ["Subtopic-1", "Subtopic-2", "Subtopic-3"]
+    },
+    {
+      "id": "6",
+      "topic": "Job interviews",
+      "subTopics": ["Subtopic-1", "Subtopic-2", "Subtopic-3"]
+    },
+    {
+      "id": "7",
+      "topic": "Interview follow-up",
+      "subTopics": ["Subtopic-1", "Subtopic-2", "Subtopic-3"]
+    },
+    {
+      "id": "8",
+      "topic": "Filing",
+      "subTopics": ["Subtopic-1", "Subtopic-2", "Subtopic-3"]
+    }
+  ]
+}
