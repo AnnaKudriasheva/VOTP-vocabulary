@@ -15,7 +15,9 @@ body {
 a {
   display: block;
   text-decoration: none;
+  color: inherit;
 }
+
 
 .bg-primary {
   background-color: $bg-primary;
@@ -39,6 +41,10 @@ a {
 
 .mb-25 {
   margin-bottom: 25px;
+}
+
+.mr-25 {
+  margin-right: 25px;
 }
 
 .pa-15 {
@@ -66,4 +72,9 @@ img {
 
 .content-space-btwn {
   justify-content: space-between;
+}
+
+.quiz-img {
+  width: 100px;
+  height: 100px;
 }

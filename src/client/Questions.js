@@ -1,11 +1,13 @@
 import React, {Component} from 'react';
+import {Grid} from 'react-bootstrap';
 
 export default class Questions extends Component {
     render() {
         return (
-            <div>
+            <Grid>
                 <p>Questions</p>
-            </div>
+            </Grid>
+
         )
     }
 }

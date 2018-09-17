@@ -43,7 +43,9 @@ export default class Topics extends Component {
                         <Panel.Title componentClass="h3">
                             {topic.topic}
                         </Panel.Title>
-                        <Button bsStyle="info" bsSize="xsmall">Test whole topic</Button>
+                        <Button bsStyle="info" bsSize="xsmall">
+                            Test whole topic
+                        </Button>
                     </Panel.Heading>
                     <SubTopics subtopics={topic.subTopics}
                                topicId={idx+1}
