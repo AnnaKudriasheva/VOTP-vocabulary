@@ -22,7 +22,11 @@ const quizTypes = [
 
 export const QuizPanels = ({matchUrl}) => (
     quizTypes.map((item, idx) =>
-        <Link to={`${matchUrl}/type/${idx+1}`} key={idx}>
+        <Link
+          to={{
+            pathname: `${matchUrl}/type/${idx+1}`,
+            state: {url: `${matchUrl}/type/${idx+1}`}}}
+            key={idx}>
             <Panel>
                 <Panel.Body>
                     <div className="flex">

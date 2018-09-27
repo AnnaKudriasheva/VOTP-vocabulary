@@ -1,6 +1,12 @@
 $bg-primary: #2d2d2d;
+
 $text-white: #ffff;
 $text-gray: #585858;
+
+$border-blue: #075b91;
+$border-red: #dc3545;
+$border-green: #4cae4c;
+
 
 html {
   height: 100%;
@@ -18,6 +24,10 @@ a {
   color: inherit;
 }
 
+ul {
+  list-style: none;
+  padding-left: 0;
+}
 
 .bg-primary {
   background-color: $bg-primary;
@@ -43,8 +53,16 @@ a {
   margin-bottom: 25px;
 }
 
+.mb-35 {
+  margin-bottom: 35px;
+}
+
 .mr-25 {
   margin-right: 25px;
+}
+
+.ml-100 {
+  margin-left: 100px;
 }
 
 .pa-15 {
@@ -74,7 +92,110 @@ img {
   justify-content: space-between;
 }
 
+.content-center {
+  justify-content: center;
+}
+
+.content-space-around {
+  justify-content: space-around;
+}
+
 .quiz-img {
   width: 100px;
   height: 100px;
+}
+
+.question-header {
+  border-bottom: 1px solid $text-gray;
+  line-height: 4rem;
+  color: $text-gray;
+}
+
+.question-container {
+  padding-top: 15px;
+  max-width: 600px;
+  margin: 0 auto 30px auto;
+}
+
+.gap-field {
+  display: inline-block;
+  width: 60px;
+  border-bottom: 1px solid black;
+}
+
+.answer-item {
+  cursor: pointer;
+  transition-duration: 0.2s;
+  text-align: center;
+  border: 1px solid $border-blue;
+  border-radius: 15px;
+  padding: 10px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.answer-item:hover {
+  transition-duration: 0.2s;
+  background-color: #d9edf7;
+}
+
+.score-circle {
+  display: block;
+  width: 150px;
+  height: 150px;
+  border: 10px solid $border-blue;
+  border-radius: 50%;
+  text-align: center;
+  span {
+    line-height: 130px;
+    font-size: 2.4rem;
+    color: $text-gray;
+  }
+}
+
+.score-circle-default {
+  border: 10px solid $border-blue;
+}
+
+.score-circle-success {
+  border: 10px solid $border-green;
+}
+
+.score-circle-errors {
+  border-color: $border-red;
+}
+
+.wrong-answers-list {
+  max-width: 800px;
+  li {
+    border: 1px solid $border-red;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 15px;
+    font-size: 16px;
+  }
+  .text-success {
+    color: #4e8a00;
+  }
+}
+
+.f-width-button {
+  width: 190px;
+}
+
+.circle-score-container {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (max-width: 768px) {
+  .mobile-column {
+    flex-direction: column;
+  }
+
+  .mobile-m-0 {
+    margin-left: 0;
+    margin-right: 0;
+  }
 }
